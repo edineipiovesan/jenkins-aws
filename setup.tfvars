@@ -1,0 +1,5 @@
+region            = "us-east-1"
+instance_type     = "t2.medium"
+availability_zone = "us-east-1a"
+user_data         = "script/Jenkins-install.sh"
+public_key        = "key/id_rsa.pub"
